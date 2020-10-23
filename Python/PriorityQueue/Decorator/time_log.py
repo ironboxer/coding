@@ -3,7 +3,7 @@ import logging
 
 def log_slow_call(wrapped=None, seconds=10):
     """
-    基本的思路就是 返回一个新的装饰器用来装饰待装饰的函数
+    基本的思路就是 返回一个新的装饰器用来装饰待装饰的函数`
     """
     if wrapped is None:
         def another_decorator(wrapped):
